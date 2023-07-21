@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
@@ -714,7 +714,7 @@ html {
 .nav_link{
   margin-left: 0.8rem;
   margin-right: 0.8rem;
-  border-radius: 0.9rem;
+  border-radius: 0.8rem;
   background-color: transparent;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
@@ -741,7 +741,7 @@ html {
   width: 100%;
 }
 
-.car_image{
+.car_img{
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -805,7 +805,7 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.inventary{
+.inventory{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.6;
   --tw-text-opacity: 1;
@@ -813,7 +813,7 @@ html {
 }
 
 @media (min-width: 1024px){
-  .inventary{
+  .inventory{
     margin-left: 2rem;
   }
 }
@@ -941,5 +941,11 @@ html {
   .lg\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:inline-block{
+    display: inline-block;
   }
 }

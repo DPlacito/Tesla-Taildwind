@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -15,14 +15,14 @@ html {
 }
 
 .nav_link {
-  @apply text-2xl font-semibold text-[#181b21] mx-[0.8rem] px-[0.8rem] py-[0.4rem] rounded-[0.9rem] bg-transparent hover:bg-[#181b21] hover:bg-opacity-10 transition-all duration-300;
+  @apply text-2xl font-semibold text-[#181b21] mx-[0.8rem] px-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent hover:bg-[#181b21] hover:bg-opacity-10 transition-all duration-300;
 }
 
 .car_section {
   @apply w-full h-screen relative;
 }
 
-.car_image {
+.car_img {
   @apply w-full h-full object-cover;
 }
 
@@ -48,7 +48,7 @@ html {
   @apply text-2xl text-white bg-[#171a20] font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.2rem] w-[25.5rem] h-16 bg-opacity-80;
 }
 
-.inventary {
+.inventory {
   @apply text-[#393c41] bg-white bg-opacity-60 lg:ml-8;
 }
 
